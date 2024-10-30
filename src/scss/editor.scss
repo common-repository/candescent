@@ -1,0 +1,54 @@
+/**
+* The following styles get applied inside the editor only.
+*
+* Replace them with your own styles or remove the file completely.
+*/
+
+.inspectorbutton.components-button span {
+	margin-left: 0px;
+}
+
+.components-dropdown-menu__menu[aria-label*="wp-block-candescent-block"] .components-button span,
+.inspectorbutton.components-button span,
+.inspectorbutton-toggle h2 span {
+	color:green;
+	background: none;
+	box-shadow: none;
+}
+
+/*.components-dropdown-menu__menu[aria-label*="candescent-font-warning"] .components-button.is-active span,
+.inspectorbutton.components-button.is-active span,
+[class*="candescent-font-warning"].blockmenu .components-button span,
+[class*="candescent-font-warning"].inspectormenu-toggle h2 span {
+	color:red;
+	background: none;
+	box-shadow: none;
+}*/
+
+.inspectormenu-toggle div.components-toolbar {
+	margin-bottom: 12px;
+	padding: 4px;
+}
+.link {
+	font-size: 12px;
+}
+.satchel {
+	display: inline-block;
+}
+.sword {
+	float:right;
+	transform: rotate(180deg);
+}
+.components-toolbar .components-button.components-dropdown-menu__toggle.has-icon span.dashicon {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.candescent-active.components-dropdown .components-button span,
+.candescent-active.components-panel__body .components-button span.components-panel__icon,
+.candescent.components-panel__body .components-button.is-active span,
+.candescent.components-popover .components-button.is-active span {
+	color:red;
+	background: none;
+	box-shadow: none;
+}
